@@ -1,0 +1,98 @@
+.version.index /* version checker */
+{
+	color: #0000F9;
+	background-color: #300AD5;
+}
+
+
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 611px;
+	min-height: 363px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page_position_content
+{
+	padding-bottom: 62px;
+}
+
+#u163
+{
+	z-index: 2;
+	width: 611px;
+	min-height: 350px;
+	border-style: none;
+	border-color: transparent;
+	background-color: #FF4418;
+	position: relative;
+}
+
+body
+{
+	position: relative;
+	background-color:#000000;
+	min-width: 611px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+counter
+{
+width:40px;
+height:40px;
+border-radius:360px;
+}
+.date
+{
+color:#FFFFFF;
+border-radius:12px;
+ animation:myfirst 5s linear infinite;
+-moz-animation:myfirst 5s linear infinite; /* Firefox */
+-webkit-animation:myfirst 5s linear infinite; /* Safari and Chrome */
+-o-animation:myfirst 5s linear infinite; /* Opera */
+}
+	
+
+@keyframes myfirst
+{
+0%,100%   {background:red;}
+25%  {background:yellow;}
+50%  {background:blue;}
+75% {background:green;}
+
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+0%,100%   {background:red;}
+25%  {background:yellow;}
+50%  {background:blue;}
+75% {background:green;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+0%,100%   {background:red;}
+25%  {background:yellow;}
+50%  {background:blue;}
+75% {background:green;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+0%,100%   {background:red;}
+25%  {background:yellow;}
+50%  {background:blue;}
+75% {background:green;}
+}
